@@ -7,11 +7,13 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    background: url('../assets/background.jpeg') center center no-repeat fixed;
+    background-size: cover;
 }
 
 header {
     text-align: center;
-    background: black;
+    background: rgba(34, 34, 34, 0.198);
     padding: 30px;
     line-height: 40px;
 }
