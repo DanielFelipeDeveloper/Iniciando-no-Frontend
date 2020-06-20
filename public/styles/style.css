@@ -11,22 +11,38 @@ body {
     background-size: cover;
 }
 
-header {
-    text-align: center;
+.header {
     background: rgba(34, 34, 34, 0.198);
-    padding: 30px;
-    line-height: 40px;
+    padding: 20px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-header .links a{
-    text-decoration: none;
-    color: white;
+.header img {
+    margin-left: 10px;
+    padding-right: 25px;
+    border-right: 1px solid rgba(255, 255, 255, 0.39);
+}
+
+.header a {
     margin-left: 30px;
     font-size: 18px;
+    text-decoration: none;
+    color: white;
 }
 
-header .links a:hover {
+.header .links {
+    display: flex;
+}
+
+
+.header .links a:hover {
     color: #7159c1;
     transition: color .5s;
 
 }
+
+
+
