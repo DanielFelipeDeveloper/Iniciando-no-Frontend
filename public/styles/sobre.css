@@ -34,8 +34,8 @@ body {
 }
 
 .about h3 {
+    font-size: 25px;
     text-align: left;
-    margin-bottom: 10px;
 }
 
 .about ul li{
@@ -45,16 +45,33 @@ body {
 }
 
 .space-between {
+    margin-top: 30px;
     display: flex;
     justify-content: space-between;
 }
 
 .space-between h4 {
-    font-size: 18px;
-    margin-right: 85px;
+    font-size: 25px;
+    margin-right: 25px;
 }
 
 .contents {
+    margin-top: 15px;
     display: flex;
     justify-content: space-between;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social a{
+    font-size: 50px;
+}
+
+.social a:hover {
+    color:#4318d1;
+    transition: .3s;
 }
