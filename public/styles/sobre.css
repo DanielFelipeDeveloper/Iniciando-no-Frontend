@@ -44,14 +44,20 @@ body {
     font-size: 18px;
 }
 
-.space-between {
+.info {
+    width: 100%;
     margin-top: 30px;
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
-.space-between h4 {
+.info h4 {
+    text-align: left;
     font-size: 25px;
+}
+
+.info .social-nets {
+    text-align: right;
     margin-right: 25px;
 }
 
