@@ -1,9 +1,4 @@
-body {
-    background: #000000;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-}
+/* == LOGO E DESCRIÇÃO DA EMPRESA == */
 
 .about {
     text-align: center;
@@ -44,6 +39,8 @@ body {
     font-size: 18px;
 }
 
+/*== TITULOS ==*/ 
+
 .info {
     width: 100%;
     margin-top: 30px;
@@ -61,11 +58,15 @@ body {
     margin-right: 25px;
 }
 
+/*== TECNOLOGIAS ==*/
+
 .contents {
     margin-top: 15px;
     display: flex;
     justify-content: space-between;
 }
+
+/*== REDES SOCIAIS==*/
 
 .social {
     display: flex;

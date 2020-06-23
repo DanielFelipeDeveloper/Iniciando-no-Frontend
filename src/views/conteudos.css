@@ -1,0 +1,67 @@
+/*== Título da Página ==*/
+
+#wrapper {
+    width: 100%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+#wrapper h1 {
+    font-size: 40px;
+}
+
+/*== CARDS ==*/
+
+.cards {
+    max-width: 1300px;
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    border: 2px solid rgb(11, 10, 13);
+}
+
+.card {
+    padding: 64px;
+    text-align: center;
+    background: rgba(79, 79, 100, 0.158);
+    border: 2px solid rgb(11, 10, 13);
+    width: 420px;
+    height: 620px;
+}
+
+.card span {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    color: rgb(113, 89, 193);
+    font-weight: bold;
+    border-radius: 50%;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(113, 89, 193);
+}
+
+.card img {
+    margin-top: 40%;
+}
+
+.id01 strong{
+    color:rgb(113, 89, 193);
+}
+
+.id02 strong {
+    color: #fd951f;
+}
+
+.id03 strong {
+    color: #04d361;
+}
+
+.card p {
+    margin-top: 20%;
+}
