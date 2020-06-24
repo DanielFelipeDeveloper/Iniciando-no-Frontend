@@ -66,6 +66,19 @@
     justify-content: space-between;
 }
 
+.images {
+    margin-top: 15px;
+    width: 500px;
+    text-align: left;
+    margin-left: -15px;
+}
+
+.images img {
+    display: inline-block;
+    width: 80px;
+    
+    border: 0;
+}
 /*== REDES SOCIAIS==*/
 
 .social {
@@ -78,7 +91,19 @@
     font-size: 50px;
 }
 
-.social a:hover {
-    color:#4318d1;
+
+#github:hover {
+    color: rgb(126, 118, 118);
     transition: .3s;
 }
+
+#facebook:hover {
+    color:  #295cc9;
+    transition: .3s;
+}
+
+#insta:hover {
+    color: #8a3ab9;
+    transition: .3s;
+}
+

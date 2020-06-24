@@ -7,7 +7,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    color: white;
+    color: rgba(255, 255, 255, 0.973);
     height: 100vh;
     justify-content: center;
     background: url('https://skylab.rocketseat.com.br//static/media/MountainsOpacity.a4edba24.png') 0% 0% / cover fixed, rgb(11, 10, 13);

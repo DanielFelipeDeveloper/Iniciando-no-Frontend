@@ -131,14 +131,6 @@
     cursor: pointer;
 }
 
-.minimize {
-    position: absolute;
-    color: black;
-    top: -4px;
-    right: 100px;
-    cursor: pointer;
-}
-
 .modal-content iframe{
     width: 100%;
     height: 90%;
@@ -153,4 +145,10 @@
 .modal-overlay.active {
     opacity: 1;
     visibility: visible;
+}
+
+.maximize {
+    width: 100%;
+    height: 100%;
+    margin: auto;
 }
