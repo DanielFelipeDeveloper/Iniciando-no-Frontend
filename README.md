@@ -24,3 +24,4 @@ abrem um modal com um iframe que carrega as informações do curso selecionado</
 
 # :page_with_curl: Resultados
 
+<h1 align="center"> <img src="https://github.com/DanielFelipeDeveloper/Launchbase-Desafio-2/blob/master/public/assets/desafio2.gif" width="1000px"> </h1>
