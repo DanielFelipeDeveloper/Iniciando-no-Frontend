@@ -18,7 +18,7 @@ abrem um modal com um iframe que carrega as informações do curso selecionado</
 * Você precisa instalar a extensão do Live Server no Vscode
 * Clone o repositório 
 ```
- $ git clone https://github.com/mjulialobo/Launchbase-Desafio02
+ $ git clone https://github.com/DanielFelipeDeveloper/Launchbase-Desafio-2.git
 ```
 * Use o Live Server para ativar o server e abrir o index.html no seu navegador
 
